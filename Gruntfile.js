@@ -42,6 +42,7 @@ module.exports = function (grunt) { // jshint ignore:line
       // Development not compressed
       development  : {
         files: {
+          "dist/css/skins/skin-midnight.css": "build/less/skins/skin-midnight.less",
           // compilation.css  :  source.less
           'dist/css/AdminLTE.css'                     : 'build/less/AdminLTE.less',
           // AdminLTE without plugins
@@ -58,6 +59,7 @@ module.exports = function (grunt) { // jshint ignore:line
           compress: true
         },
         files  : {
+          "dist/css/skins/skin-midnight.min.css": "build/less/skins/skin-midnight.less",
           // compilation.css  :  source.less
           'dist/css/AdminLTE.min.css'                     : 'build/less/AdminLTE.less',
           // AdminLTE without plugins
