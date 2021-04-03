@@ -43,6 +43,7 @@ module.exports = function (grunt) { // jshint ignore:line
       development  : {
         files: {
           "dist/css/skins/skin-midnight.css": "build/less/skins/skin-midnight.less",
+          "dist/css/skins/skin-bosy-midnight.css": "build/less/skins/skin-bosy-midnight.less",
           // compilation.css  :  source.less
           'dist/css/AdminLTE.css'                     : 'build/less/AdminLTE.less',
           // AdminLTE without plugins
@@ -60,6 +61,7 @@ module.exports = function (grunt) { // jshint ignore:line
         },
         files  : {
           "dist/css/skins/skin-midnight.min.css": "build/less/skins/skin-midnight.less",
+          "dist/css/skins/skin-bosy-midnight.min.css": "build/less/skins/skin-bosy-midnight.less",
           // compilation.css  :  source.less
           'dist/css/AdminLTE.min.css'                     : 'build/less/AdminLTE.less',
           // AdminLTE without plugins
